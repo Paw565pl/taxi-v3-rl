@@ -8,7 +8,7 @@ def use_model(episodes: int):
     # load model
     q_table = np.load("q_table.npy")
 
-    for i in range(episodes):
+    for _ in range(episodes):
         state = env.reset()[0]
         terminated = False
         truncated = False
