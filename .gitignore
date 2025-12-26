@@ -11,3 +11,7 @@ wheels/
 
 # pycharm
 .idea
+
+# model files
+*.npy
+*.zip
